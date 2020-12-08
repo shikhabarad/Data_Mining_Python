@@ -19,8 +19,6 @@ isDefault is given for the first 10000 customers. Your job is to assign a probab
 customers.
 Train your model on the training data (instances 0 - 9999) and make predictions on the test data (instances 10000-
 14,999). The test data is the same format as training data, except it does not contain the isDefault column.
-The data is available at the following link:
-https://drive.google.com/file/d/1oPSNCYeCVGJsTX60X-PW088R8S0AMmeT/view?usp=sharing
 The data can be loaded from dataset.pkl in python using:
 import pandas as pd
 data = pd.read_pickle('path/to/data/dataset.pkl')
